@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 200px;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      margin: 0;
+    }
+    
+    .container {
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 16px;
+      margin: 0 0 20px 0;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    }
+    
+    .toggle-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px 0;
+    }
+    
+    .toggle-switch {
+      position: relative;
+      width: 60px;
+      height: 34px;
+      background-color: #ccc;
+      border-radius: 34px;
+      transition: background-color 0.3s;
+      cursor: pointer;
+      margin: 0 10px;
+    }
+    
+    .toggle-switch.active {
+      background-color: #4CAF50;
+    }
+    
+    .toggle-slider {
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      width: 30px;
+      height: 30px;
+      background-color: white;
+      border-radius: 50%;
+      transition: transform 0.3s;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    
+    .toggle-switch.active .toggle-slider {
+      transform: translateX(26px);
+    }
+    
+    .status {
+      font-size: 14px;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    
+    .description {
+      font-size: 12px;
+      margin-top: 15px;
+      opacity: 0.9;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Bansal Pro</h1>
+    
+    <div class="toggle-container">
+      <span>OFF</span>
+      <div class="toggle-switch" id="toggleSwitch">
+        <div class="toggle-slider"></div>
+      </div>
+      <span>ON</span>
+    </div>
+    
+    <div class="status" id="status">Feature is disabled</div>
+    
+    <div class="description">
+      When enabled, this extension will "enhance legibility" of the page.
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html> 

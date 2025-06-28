@@ -1,0 +1,68 @@
+{
+  "replacements": [
+    {
+      "from": "would",
+      "to": "wud"
+    },
+    {
+      "from": "could", 
+      "to": "cud"
+    },
+    {
+      "from": "should",
+      "to": "shud"
+    },
+    {
+      "from": "greater",
+      "to": "gr8r"
+    },
+    {
+      "from": "because",
+      "to": "cuz"
+    },
+    {
+      "from": "oo",
+      "to": "00"
+    },
+    {
+      "from": "seriously",
+      "to": "srsly"
+    },
+    {
+      "from": "really",
+      "to": "rlly"
+    },
+    {
+      "from": "your",
+      "to": "ur"
+    },
+    {
+      "from": "you",
+      "to": "u"
+    },
+    {
+      "from": "pretty",
+      "to": "p"
+    },
+    {
+      "from": "between",
+      "to": "btwn"
+    },
+    {
+      "from": "ate",
+      "to": "8"
+    },
+    {
+      "from": "right",
+      "to": "rite"
+    },
+    {
+      "from": "might",
+      "to": "migjt"
+    },
+    {
+      "from": "before",
+      "to": "b4"
+    }
+  ]
+} 
